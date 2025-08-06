@@ -19,7 +19,7 @@ export default function Entry({
           layout="responsive"
           objectFit="contain"
           priority
-          alt={`Desert Scene Mobile | Highlaŋu | Emma-Jane MacKinnon-Lee`}
+          alt={`Signal One Mobile | Highlaŋu | Emma-Jane MacKinnon-Lee`}
           width={944}
           height={1358}
         />
@@ -31,7 +31,7 @@ export default function Entry({
           layout="responsive"
           objectFit="contain"
           priority
-          alt={`Desert Scene | Highlaŋu | Emma-Jane MacKinnon-Lee`}
+          alt={`Signal One | Highlaŋu | Emma-Jane MacKinnon-Lee`}
           width={1280}
           height={768}
         />

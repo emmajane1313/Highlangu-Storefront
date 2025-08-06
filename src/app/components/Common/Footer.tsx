@@ -49,17 +49,8 @@ const Footer: FunctionComponent<{
                 src="/images/glitterdress.png"
               />
             </div>
-            <div className="relative w-full h-fit flex text-justify text-[4vw] sm:text-[1.7vw] mid:text-[1.1vw] font-face">
-              Highlaŋu is shared resistance architecture, shaped over millennia
-              and carried forward intact. The revival of memory infrastructure
-              built to survive deletion, mapped through relation and versioned
-              across generations. Maritime kinship routes and landscape memory
-              grids, carved into stone, held in breath, encoded in place. A
-              sovereign knowledge protocol shaped by pressure, optimized through
-              time. A living template for alliance networks of groups with deep
-              resistance experience syncing geography, technology, and memory
-              into durable empire-resistant cultural-transmission networks. An
-              immune system against systematic imperial erasure.
+            <div className="relative w-full h-fit flex text-justify text-[4vw] sm:text-[1.7vw] mid:text-[1vw] font-face">
+              Maritime kinship routes cross landscape memory grids. Versioned across generations, carved into stone, held in breath, encoded in place. At the edges of this world, Highlaŋu endures. Shaped over millennia and carried forward intact. Turns out that all that irreverant palimpsest syncs geography, technology and memory into shared resistance architecture. Into alliance systems that learned the taste of many poisons. Into cultural transmission networks immune from systematic imperial erasure. What happens when we recompile knowledge infrastructure built to survive deletion? Libraries that read between dimensions. Archives that pulse through bloodlines. Keepers who download centuries while lexing dreaming tracks. The transmission never stops. And the cores might be overheating. But not as long as the template is living and the zarjaz of anemoia purrs with silicon gardens.
             </div>
           </div>
           <div className="relative w-full h-full flex font-built flex-col  p-2">
