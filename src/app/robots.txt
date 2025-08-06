@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://highlangu.emancipa.xyz/sitemap.xml
