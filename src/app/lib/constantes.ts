@@ -67,3 +67,14 @@ export const VIDEOS: { src: string; poster: string; title: string }[] = [
 
 export const LOCALES: string[] = ["en", "gd", "guf"];
 
+export const IMAGE_MOBILE: { [key in string]: string } = {
+  ["gd"]: "desert-mobile-highlaŋu-gd-emmajanemackinnonlee",
+  ["en"]: "desert-mobile-highlaŋu-emmajanemackinnonlee",
+  ["guf"]: "desert-mobile-highlaŋu-guf-emmajanemackinnonlee",
+};
+
+export const IMAGE_SCREEN: { [key in string]: string } = {
+  ["gd"]: "desert-highlaŋu-gd-emmajanemackinnonlee",
+  ["en"]: "desert-highlaŋu-emmajanemackinnonlee",
+  ["guf"]: "desert-highlaŋu-guf-emmajanemackinnonlee",
+};

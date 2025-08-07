@@ -21,20 +21,16 @@ const Footer: FunctionComponent<{
               Highlaŋu
             </div>
             <div className="relative w-full h-fit flex text-[7vw] sm:text-[4vw] uppercase font-faceT">
-              The Highland-Yolŋu Alliance.
+              {dict?.alliance}
             </div>
           </div>
           <div className="relative w-full h-fit  text-lg font-klar">
-            From Gaels to First Nations, the threads were never just fabric.
-            Handwoven legacies to zero-knowledge silk, heritage doesn’t fade. It
-            forks. Coded through songline and signal, across the longest arc of
-            connected memory. A cross-temporal mesh of transmission techniques
-            refined through contact, refusal, adaptation, and return. Trace the{" "}
+            {dict?.thread}{" "}
             <a
               className="underline cursor-pointer"
               href="https://highlangu.com"
             >
-              lore.
+              {dict?.lore}
             </a>
           </div>
         </div>
@@ -49,20 +45,29 @@ const Footer: FunctionComponent<{
                 src="/images/glitterdress.png"
               />
             </div>
-            <div className="relative w-full h-fit flex text-justify text-[4vw] sm:text-[1.7vw] mid:text-[1vw] font-face">
-              Maritime kinship routes cross landscape memory grids. Versioned across generations, carved into stone, held in breath, encoded in place. At the edges of this world, Highlaŋu endures. Shaped over millennia and carried forward intact. Turns out that all that irreverant palimpsest syncs geography, technology and memory into shared resistance architecture. Into alliance systems that learned the taste of many poisons. Into cultural transmission networks immune from systematic imperial erasure. What happens when we recompile knowledge infrastructure built to survive deletion? Libraries that read between dimensions. Archives that pulse through bloodlines. Keepers who download centuries while lexing dreaming tracks. The transmission never stops. And the cores might be overheating. But not as long as the template is living and the zarjaz of anemoia purrs with silicon gardens.
+            <div
+              className={`relative w-full h-fit flex text-justify font-face ${
+                lang == "gd"
+                  ? "text-[4vw] sm:text-[1.7vw] mid:text-[0.9vw]"
+                  : "text-[4vw] sm:text-[1.7vw] mid:text-[1vw]"
+              }`}
+            >
+              {dict?.maps}
             </div>
           </div>
           <div className="relative w-full h-full flex font-built flex-col  p-2">
             <div className="relative w-fit h-fit flex text-[7vw] sm:text-[4.5vw] mid:text-[3.7vw]">
-              Maximum Resistance Experience.
+              {dict?.exp}
             </div>
             <div className="relative w-fit h-fit flex text-[7vw] sm:text-[4.5vw] mid:text-[3.45vw]">
-              Maximum Knowledge Preservation.
+              {dict?.kno}
             </div>
-            <div className="relative w-fit h-fit font-faceL flex text-xl">
-              Where navigation becomes interface, and the archive remembers you
-              back.
+            <div
+              className={`relative w-fit h-fit font-faceL flex ${
+                lang == "gd" ? "text-lg" : "text-xl"
+              }`}
+            >
+              {dict?.nav}
             </div>
           </div>
         </div>
