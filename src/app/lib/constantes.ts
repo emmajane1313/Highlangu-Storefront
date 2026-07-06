@@ -1,6 +1,6 @@
 export const INFURA_GATEWAY_INTERNAL: string =
-  "https://emancipa.xyz/api/infura/";
-export const INFURA_GATEWAY: string = "https://thedial.infura-ipfs.io/ipfs/";
+  "https://cdn.digitalax.xyz/ipfs/";
+export const INFURA_GATEWAY: string = "https://cdn.digitalax.xyz/ipfs/";
 
 export const VIDEOS: { src: string; poster: string; title: string }[] = [
   {
